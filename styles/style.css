@@ -149,3 +149,30 @@
   margin-bottom: 128px;
 }
 /* ------feature section ends here---- */
+/* ------service section starts here---- */
+.services {
+  width: 1108px;
+  height: 320px;
+  margin: 0 auto 128px auto;
+  border-radius: 8px;
+  background-color: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.delivery-service,
+.flower-service,
+.support-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.delivery-service img,
+.flower-service img,
+.support-service img {
+  padding-bottom: 28px;
+}
+
+/* ------service section ends here---- */
