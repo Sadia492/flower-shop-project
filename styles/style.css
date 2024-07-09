@@ -54,3 +54,98 @@
   border: none;
 }
 /* ------header section ends here---- */
+/* ------feature section starts here---- */
+.feature-description {
+  text-align: center;
+}
+.feature-description h1 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.feature-description p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.flower1,
+.flower2,
+.flower3 {
+  width: 357px;
+  height: 414px;
+
+  text-align: center;
+  border-radius: 50% 50% 0 0;
+}
+.feature-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.flower1 img {
+  width: 238px;
+  height: 329px;
+}
+.flower2 img {
+  width: 284px;
+  height: 284px;
+}
+.flower3 img {
+  width: 241px;
+  height: 362px;
+}
+.flower1 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.flower2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.flower3 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.pink,
+.flower,
+.tree {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.pink p,
+.flower p,
+.tree p {
+  padding-top: 32px;
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.feature {
+  margin-top: 178px;
+  margin-bottom: 128px;
+}
+/* ------feature section ends here---- */
