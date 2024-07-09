@@ -222,3 +222,42 @@
   padding-bottom: 32px;
 }
 /* ------deals section ends here---- */
+/* ------instagram section starts here---- */
+.instagram-description {
+  text-align: center;
+}
+.instagram-images {
+  text-align: center;
+}
+.instagram-images img {
+  padding-right: 18px;
+  width: 263px;
+  height: 304px;
+}
+.instagram-images img:last-child {
+  padding-right: 0px;
+}
+.instagram-description h1 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.instagram-description p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.instagram {
+  margin-bottom: 128px;
+}
+/* ------instagram section ends here---- */
