@@ -362,3 +362,71 @@ footer h1 {
   text-align: center;
 }
 /* ------footer section ends here---- */
+.hide {
+  display: none;
+}
+/* small device */
+@media screen and (max-width: 576px) {
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-description {
+    padding-left: 20px;
+  }
+  .feature-image {
+    flex-direction: column;
+  }
+  .banner-image {
+    width: 80%;
+  }
+  .banner-description {
+    padding: 0px;
+    margin: 0px;
+  }
+  .flower1,
+  .flower2,
+  .flower3 {
+    width: 90vw;
+    height: 414px;
+  }
+  .flower1 img,
+  .flower2 img,
+  .flower3 img {
+    width: 80%;
+  }
+  .services {
+    flex-direction: column;
+    width: 90vw;
+    height: 700px;
+  }
+  .deals {
+    flex-direction: column;
+    height: 800px;
+  }
+  .deals-description {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .instagram-images img {
+    padding-right: 0px;
+  }
+  .newsletter {
+    width: 100%;
+  }
+  .newsletter-input input {
+    width: 95vw;
+    margin-left: 5px;
+  }
+  .newsletter-input button {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .banner-description h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .banner-description {
+    padding-left: 5px;
+  }
+}
